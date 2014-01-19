@@ -1,9 +1,9 @@
-/* terminal */
 /*****************************************************************************/
 /*
 /* Common
 /*
 /*****************************************************************************/
+
 body {
   background-image: url('/images/debut_light.png');
   padding-top: 20px;
@@ -11,122 +11,132 @@ body {
   font-family: 'Droid Serif', Garamond, Georgia, serif;
   line-height: 1.5;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Nixie One", serif;
 }
-h1,
-h2,
-h3 {
+
+h1, h2, h3 {
   margin-top: 27px;
   margin-bottom: 13.5px;
 }
-h3,
-.h3 {
+
+h3, .h3 {
   font-size: 31px;
 }
-h4,
-.h4 {
+
+h4, .h4 {
   font-size: 22px;
   line-height: 1.5;
 }
+
 a {
   color: #CA4242;
 }
+
 hr {
   border-top: 1px solid #aaa;
 }
+
 iframe {
   max-width: 100%;
 }
+
 .header {
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.main a.extra {
-  color: #aaa;
-  margin-right: 1em;
+
+.main { 
+  a.extra {
+    color: #aaa;
+    margin-right: 1em;
+    &:hover {
+      color: #000;
+    }
+  }
+  .meta {
+    color: #aaa;
+  }
+  .copyright {
+    font-size: 65%;
+  }
 }
-.main a.extra:hover {
-  color: #000;
+
+.sidebar {
+  p {
+    font-size: 65%;
+    color: #767676;
+    margin-bottom: 0.75em;
+  }
+  .location {
+    font-weight: 700;
+  }
+  .social-icons img {
+    padding-left: 5px;
+  }
 }
-.main .meta {
-  color: #aaa;
-}
-.main .copyright {
-  font-size: 65%;
-}
-.sidebar p {
-  font-size: 65%;
-  color: #767676;
-  margin-bottom: 0.75em;
-}
-.sidebar .location {
-  font-weight: 700;
-}
-.sidebar .social-icons img {
-  padding-left: 5px;
-}
+
 .newsletter {
   margin-top: 40px;
 }
-div#preload {
-  display: none;
-}
+
+div#preload { display: none; }
+
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
   padding-left: 0;
 }
+
 ul.posts li {
   line-height: 1.75em;
 }
+
 ul.posts span {
   color: #aaa;
   font-size: 80%;
 }
+
 /*****************************************************************************/
 /*
 /* Posts
 /*
 /*****************************************************************************/
+
 .post p {
   text-align: justify;
 }
+
 .title {
   font-size: 2.36em;
   text-align: left;
 }
+
 .post img {
   max-width: 100%;
   height: auto;
 }
+
 .post figure {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .post figcaption {
   font-size: 85%;
   text-align: center;
   font-style: italic;
 }
+
 .credit {
   font-size: 85%;
   text-align: center;
@@ -134,48 +144,57 @@ ul.posts span {
   margin-top: -20px;
   margin-bottom: 20px;
 }
+
 .gallery {
   text-align: center;
+  a {
+    display: block;
+    margin-bottom: 20px;
+  }
 }
-.gallery a {
-  display: block;
-  margin-bottom: 20px;
-}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
-.post ul,
-.post ol {
+
+.post ul, .post ol {
   margin-left: 1.35em;
 }
+
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
+
 .post pre code {
   border: none;
 }
+
 /* terminal */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
+
 .post pre.terminal code {
   background-color: #333;
 }
+
 /*****************************************************************************/
 /*
 /* Media queries
 /*
 /*****************************************************************************/
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
+
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 768px) { 
   body {
     padding-top: 80px;
   }
@@ -183,11 +202,9 @@ ul.posts span {
     text-align: right;
   }
 }
+
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  
-}
+@media (min-width: 992px) {  }
+
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  
-}
+@media (min-width: 1200px) {  }

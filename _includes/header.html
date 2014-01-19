@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{% if page.title %}{{ page.title }} | Luke the Guru {% else %}Luke the Guru | Web developer, designer and digital nomad.{% endif %}</title>
+    <meta name="description" content="{% if page.description }{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google-site-verification" content="fIwsGR5wEpFYh81Mm19tXnGRzH1a2JidyFh9jeEkNqg" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | Luke the Guru {% else %}Luke the Guru | Web developer, designer and digital nomad.{% endif %}" />
+    <meta property="og:description" content="{{ page.excerpt }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:image" content="{{site.url}}/assets/images/luke-harvey.gif" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic|Nixie+One'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen">
+    <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon">
+
+  </head>
+  <body>
+
+    <div class="container">
