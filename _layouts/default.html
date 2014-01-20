@@ -1,17 +1,12 @@
 {% include header.html %}
 
-<section class="main col-sm-7 col-sm-push-3">
-  <nav role="navigation">
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
-    <a class="extra" href="/map.html">map</a>
-  </nav>
-  {{ content }}
-  <p class="copyright">&copy; 2013, Luke Harvey</p>        
+<section class="main col-sm-8">
+  {% include nav.html %}
+  {{ content }}      
 </section><!-- /main -->
 
-<aside class="sidebar col-sm-3 col-sm-pull-7">
-  {% include sidebar.html %}
-</aside>
+{% include sidebar.html %}
 
 {% include footer.html %}
+
+{% include end.html %}

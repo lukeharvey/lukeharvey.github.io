@@ -11,7 +11,10 @@ tags:
 
 I have to admit that as well as being a tech geek, I've always been a bit of a personal finance geek. Travel money is not the most exciting topic, but due to my current circumstances I think I have some valuable insight to share on this topic, especially as I keep seeing it done badly.
 
-(Image to go here)
+![](/images/2013-10-17/foreign-currency.jpg)
+<div class="credit">
+  Photo Credit: <a href="http://www.flickr.com/photos/84632209@N00/1435739708/">bradipo</a> via <a href="http://compfight.com">Compfight</a> <a href="http://creativecommons.org/licenses/by/2.0/">cc</a>
+</div>
 
 ## Don't bother buying foreign currency before you travel
 The easiest, simplest and best way to get your foreign currency is to just **use your debit card in foreign ATMs**. There are ATMs in all but the smallest airports these days, and you will get a much better exchange rate than if you went to a foreign currency booth. Who has even heard of travellers' cheques these days anyway?
@@ -21,7 +24,10 @@ Also, by using foreign ATMs, and just withdrawing as much as you need every few 
 ### Exception - carry some US dollars for emergencies/visas etc
 If I am at all concerned about the country I'm going to, if I'm heading off on a long trip of backpacking, or I know I will have to pay for a visa on arrival somewhere, I'll typically take some **US dollars with me in cash**. I'd say you just need enough to cover you for a few days in case your cards don't work, or in case everything else gets stolen, perhaps $100-200.
 
-(Image to go here)
+![](/images/2013-10-17/dollars.jpg)
+<div class="credit">
+  Photo Credit: <a href="http://www.flickr.com/photos/85473033@N00/3367543094/">AMagill</a> via <a href="http://compfight.com">Compfight</a> <a href="http://creativecommons.org/licenses/by/2.0/">cc</a>
+</div>
 
 To get the best rate for said dollars, always shop online using something like the [Travel Money Max](http://travelmoney.moneysavingexpert.com/) tool. Don't use the exchange booths at the airport unless you have reserved some cash with them online in advance for a better rate.
 
@@ -43,7 +49,7 @@ Opening a new bank account will not affect your old bank account in any way - yo
 
 Unfortunately you can't apply for a current account from Metro Bank online, you have to go into one of their [branches in person](https://www.metrobankonline.co.uk/Our-Stores/OurStores/), and at the moment most of their branches are in London. But don't let that put you off because the **whole process can take as little as 30 minutes**, they are open on Sundays, and they even print off your debit card there and then - no waiting for it to arrive in the post.
 
-(Image to go here)
+![Metro Bank branches](/images/2013-10-17/metro-bank-branches.jpg)
 
 So next time you are in London with 30 minutes to spare, pop into a branch of Metro Bank and open a current account. **Make sure you sign up for their online banking service**, so you can easily keep an eye on your balance.
 
@@ -69,4 +75,7 @@ Anyway, if you follow my instructions I hope your future travels go well and I l
 
 Mine's a cider, cheers 'en!
 
-(Image to go here)
+![](/images/2013-10-17/cider.jpg)
+<div class="credit">
+  The end result of your savings could be more of these. Photo Credit: <a href="http://www.flickr.com/photos/10413717@N08/9275016043/">Smabs Sputzer</a> via <a href="http://compfight.com">Compfight</a> <a href="http://creativecommons.org/licenses/by/2.0/">cc</a>
+</div>

@@ -13,7 +13,7 @@ I'm in Dubai, the first stop on my trip East. I'm not going to write anything gr
 
 Women in burkhas stroll through the enormous shopping malls alongside Russian WAGs in tight skirts, while Filipino housemaids look after the children. Young Emiratis tear their Ferraris past the lines of taxis driven almost exclusively by Bangladeshi or Pakistani immigrants. Western tourists sunbathe on the beach, while South Asian construction workers labour in the blistering hot sun building the next luxury attraction.
 
-(Image to go here)
+![The Burj Khalifa](/images/2013-09-14/Dubai-1.jpg)
 
 The racial segmentation and gaudy consumerism remind me of the caste system and consumption-driven dystopia in Aldous Huxley's "A Brave New World". But as some of the taxi drivers explain, at least here they feel safe from crime, and the little that they earn is more than they could earn at home.
 
@@ -21,7 +21,7 @@ The effect of petrodollars is clear to see. How else could a small fishing town 
 
 It must have been a city planner's dream to have been involved with Dubai from the start, and help it in its endless quest to provide water-front properties for anyone and everyone who wants and can afford one. It certainly feels like a real-life version of SimCity.
 
-(Image to go here)
+![Dubai at night from the Burj Khalifa viewing gallery](/images/2013-09-14/Dubai-2.jpg)
 
 As a tourist it seems there seems little to do but shop, sunbathe, eat or go to one of the outrageous (seen as we're in the desert) attractions, like the water parks or artificial ski slope. For some that is holiday heaven, for me I'm looking for something more fulfilling...
 
@@ -39,11 +39,11 @@ Whatever my thoughts on the place, the real reason I'm here is to visit my old f
 
 We spend a lovely long weekend together. There is lots to catch-up on, including their upcoming wedding which won't be until 2015 but I'm proud to say I have an important role to play - more details soon!
 
-(Image to go here)
+![Jack and I by the Burj-al-Arab](/images/2013-09-14/Dubai-3.jpg)
 
 We enjoy lots of good food, ranging from one of Dubai's infamous buffet brunches to a cracking cheap vegetarian curry house where we are the only Westerners.
 
-(Image to go here)
+![Rhiannon and I at brunch](/images/2013-09-14/Dubai-4.jpg)
 
 On the Saturday afternoon Jack and I indulge in a trip to Wild Wadi water park, which has two particularly good slides that get the heart racing.
 

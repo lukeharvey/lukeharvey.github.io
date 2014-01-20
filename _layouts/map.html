@@ -1,0 +1,67 @@
+{% include header.html %}
+
+<section class="main col-sm-8">
+  {% include nav.html %}
+  {{ content }}      
+</section><!-- /main -->
+
+{% include sidebar.html %}
+
+{% include footer.html %}
+
+<script type='text/javascript' src='https://www.google.com/jsapi'></script>
+<script type='text/javascript'>
+ google.load('visualization', '1', {'packages': ['geochart']});
+ google.setOnLoadCallback(drawRegionsMap);
+
+  function drawRegionsMap() {
+    var data = google.visualization.arrayToDataTable([
+      ['Country', 'Visited'],
+      ['Argentina', 1],
+      ['Australia', 1],
+      ['Belize', 1],
+      ['Brazil', 1],
+      ['Chile', 1],
+      ['Croatia', 1],
+      ['Czech Republic', 1],
+      ['Denmark', 1],
+      ['El Salvador', 1],
+      ['France', 1],
+      ['Germany', 1],
+      ['Greece', 1],
+      ['Guatemala', 1],
+      ['Honduras', 1],
+      ['Hong Kong', 1],
+      ['Hungary', 1],
+      ['Indonesia', 1],
+      ['Italy', 1],
+      ['Malaysia', 1],
+      ['Mexico', 1],
+      ['Morocco', 1],
+      ['New Zealand', 1],    
+      ['RU', 1],
+      ['Singapore', 1],
+      ['Slovakia', 1],
+      ['Slovenia', 1],
+      ['South Africa', 1],
+      ['Spain', 1],
+      ['Sweden', 1],
+      ['Switzerland', 1],
+      ['Thailand', 1],
+      ['The Netherlands', 1],
+      ['Tunisia', 1],
+      ['Turkey', 1],
+      ['UAE', 1],
+      ['United Kingdom', 1],
+      ['United States', 1],
+      ['Uruguay', 1]
+    ]);
+
+    var options = {};
+
+    var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+};
+</script>
+
+{% include end.html %}

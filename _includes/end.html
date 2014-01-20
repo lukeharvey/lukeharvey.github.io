@@ -1,0 +1,31 @@
+  <div id="preload">
+    <img src="/images/facebook2.png" width="1" height="1" alt="Add me on Facebook">
+    <img src="/images/linkedin2.png" width="1" height="1" alt="Connect on LinkedIn" />
+    <img src="/images/twitter2.png" width="1" height="1" alt="Follow me on Twitter" />
+    <img src="/images/rss2.png" width="1" height="1" alt="Subscribe to my RSS feed" />
+  </div>
+  <script>
+  $(document).ready(function() {
+    //email spam protection - Example Markup: <span class="email">name[at]domain[dot]com</span>
+    $('.email').each(function() {var $email = $(this); var address = $email.text().replace(/\s*\[at\]\s*/, '@').replace(/\s*\[dot\]\s*/g, '.');
+      $email.html('<a href="mailto:' + address + '">'+ address +'</a>');
+    });
+    //rollover swap images with rel
+    var img_src = "";var new_src = "";
+    $(".rollover").hover(function(){img_src = $(this).attr('src');new_src = $(this).attr('rel');$(this).attr('src', new_src);$(this).attr('rel', img_src);}, 
+    function(){$(this).attr('src', img_src);$(this).attr('rel', new_src);});var cache = new Array();
+    $(".rollover").each(function(){ var cacheImage = document.createElement('img'); cacheImage.src = $(this).attr('rel'); cache.push(cacheImage);
+    });
+  });
+  </script>
+  <script>
+    //Google Analytics
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-44604728-1', 'luketheguru.com');
+    ga('send', 'pageview');
+  </script>
+  </body>
+</html>

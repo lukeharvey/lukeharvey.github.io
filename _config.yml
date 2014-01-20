@@ -4,3 +4,5 @@ markdown: redcarpet
 pygments: true
 safe: true
 lsi: false
+timezone: Europe/London
+exclude: [Gemfile, Gemfile.lock, README.md]

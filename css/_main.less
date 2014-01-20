@@ -12,22 +12,21 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Nixie One", serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   margin-top: 27px;
-  margin-bottom: 13.5px;
+  line-height: 1.5;
 }
 
-h3, .h3 {
+h3 {
   font-size: 31px;
 }
 
-h4, .h4 {
+h4 {
   font-size: 22px;
-  line-height: 1.5;
 }
 
 a {
@@ -38,35 +37,20 @@ hr {
   border-top: 1px solid #aaa;
 }
 
-iframe {
+iframe, img {
   max-width: 100%;
 }
 
-.header {
-  text-align: left;
-  margin-top: 20px;
+.site-nav {
   margin-bottom: 20px;
-}
-
-.main { 
-  a.extra {
-    color: #aaa;
+  a {
     margin-right: 1em;
-    &:hover {
-      color: #000;
-    }
-  }
-  .meta {
-    color: #aaa;
-  }
-  .copyright {
-    font-size: 65%;
   }
 }
 
 .sidebar {
   p {
-    font-size: 65%;
+    font-size: 80%;
     color: #767676;
     margin-bottom: 0.75em;
   }
@@ -78,8 +62,11 @@ iframe {
   }
 }
 
-.newsletter {
-  margin-top: 40px;
+.site-footer {
+  .copyright {
+    font-size: 65%;
+    color: #767676;
+  }
 }
 
 div#preload { display: none; }
@@ -90,6 +77,11 @@ div#preload { display: none; }
 /*
 /*****************************************************************************/
 
+h2.post-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -97,12 +89,12 @@ ul.posts {
 }
 
 ul.posts li {
-  line-height: 1.75em;
+  border-top: 1px solid #ccc;
+  padding: 12px 0;
 }
 
 ul.posts span {
-  color: #aaa;
-  font-size: 80%;
+  color: #ccc;
 }
 
 /*****************************************************************************/
@@ -118,6 +110,10 @@ ul.posts span {
 .title {
   font-size: 2.36em;
   text-align: left;
+}
+
+.meta {
+  color: #ccc;
 }
 
 .post img {
@@ -141,7 +137,7 @@ ul.posts span {
   font-size: 85%;
   text-align: center;
   font-style: italic;
-  margin-top: -20px;
+  // margin-top: -20px;
   margin-bottom: 20px;
 }
 
@@ -197,9 +193,6 @@ ul.posts span {
 @media (min-width: 768px) { 
   body {
     padding-top: 80px;
-  }
-  .sidebar {
-    text-align: right;
   }
 }
 

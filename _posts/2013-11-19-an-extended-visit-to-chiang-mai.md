@@ -14,7 +14,10 @@ I'd been wanting to come to Chiang Mai for some time. I knew it was a key stop o
 
 It seemed like the perfect place to properly acclimatise to being in Asia and settle in to my new lifestyle of travelling while doing my web work.
 
-(Image to go here)
+![](/images/2013-11-19/chiang-mai-sunday-market.jpg)
+<div class="credit">
+  Photo Credit: <a href="http://www.flickr.com/photos/44124371264@N01/89943035/">fortes</a> via <a href="http://compfight.com">Compfight</a> <a href="http://creativecommons.org/licenses/by-sa/2.0/">cc</a>
+</div>
 
 ## Tourist hotspot
 Its such a big tourist hotspot because it serves as a great base for exploring the North of Thailand, with all its mountains, jungle, elephants, remote hill tribes etc. 
